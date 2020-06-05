@@ -48,7 +48,7 @@
     //    zone.addEventListener('dragover', allowDragOver);
     //    zone.addEventListener('drop', allowDrop);
     //});
-    for (zone of dropZones) {
+    for (let zone of dropZones) {
       zone.addEventListener('dragover', allowDragOver);
       zone.addEventListener('drop', allowDrop);
     }

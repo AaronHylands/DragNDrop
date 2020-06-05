@@ -54,6 +54,16 @@ body {
 
 /* arrange the puzzle pieces on the board */
 
+.drop-zone img{
+  position: absolute;
+  width: auto;
+  padding: 0px;
+  margin: 0px;
+  bottom: 0px;
+}
+
+.br img, .bl img {top: 0;}
+.tl img, .bl img {right: 0;}
 
 /* set up drop zones */
 
